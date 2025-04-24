@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Извлечение чисел</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<input type="text" id="numberInput" placeholder="Введите строку с числами">
+<button onclick="handleExtract()">Извлечь</button>
+<p>Результат: <span id="numberResult"></span></p>
+<div class="section">
+    <button onclick="startFibonacci()">Старт</button>
+    <pre id="fiboResult"></pre>
+</div>
+<div class="fetch">
+    <button onclick="fetchTitles()">Получить названия товаров</button>
+    <ul id="titlesList"></ul>
+</div>
+<div class="section">
+    <div id="color-buttons">
+        <button>red</button>
+        <button>green</button>
+        <button>blue</button>
+        <button>yellow</button>
+        <button>purple</button>
+    </div>
+</div>
+<div class="section">
+    <button onclick="startCounter()">Старт</button>
+    <p>Счёт: <span id="counter">0</span></p>
+</div>
+<button id="toggleBtn">Скрыть блок</button>
+
+<div id="squareBlock"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
